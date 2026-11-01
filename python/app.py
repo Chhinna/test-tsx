@@ -1,7 +1,7 @@
 import requests
 import jwt
 import urllib3
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 from jinja2 import Environment
 
 
